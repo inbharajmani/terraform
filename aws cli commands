@@ -1,0 +1,2 @@
+aws sts get-caller-identity -> provides which user/role is configured in aws cli
+aws ec2 describe-instances --region ap-south-1 -> provides ec2 instance details
