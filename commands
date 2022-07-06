@@ -1,0 +1,6 @@
+terraform init
+terraform plan
+terraform validate
+terraform apply(provides plan also)
+terraform state list
+terraform destroy
