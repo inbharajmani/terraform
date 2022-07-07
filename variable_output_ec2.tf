@@ -14,7 +14,9 @@ provider "aws" {
 }
 
 variable "instance_name" {
-default = "TF_built_this_instance"
+description = "Providing variable value"
+type = string
+default = "TF_created_this"
 }
 
 resource "aws_instance" "app_server" {
