@@ -4,3 +4,6 @@ terraform validate
 terraform apply(provides plan also)
 terraform state list
 terraform destroy
+terraform apply -var-file="anyfile.tfvars" -> provide variable values
+#cat anyfile.tfvars
+instance_name = "mycustom_instace_name"
